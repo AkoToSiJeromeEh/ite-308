@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeje One Stop Shop</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main-container">
+        <audio src="" autoplay>
+            <source src="./Poem of the Clouds - Beautiful Piano Music for Relaxation｜BigRicePiano.mp3" type="mp3" >
+        </audio>
+       <div class="header-nav">
+        <header>
+            <div>
+              <h2>   <i class="fa-solid fa-shop"></i>  Jeje One Stop Shop</h2>
+            </div>
+            <div class="header-description">
+                <p>Your Ultimate One Stop Shop</p>
+            </div>
+        </header>
+        <nav>
+
+            <div class="navlinks">
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Contacts</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </nav>
+       </div>
+        <main class="main-content">
+            <div class="input-container">
+            <h1>Jeje One Stop Shop</h1>
+            <div class="input-fields-cont">
+                <form action="orderSum.php" method="post">
+                    <input type="text" placeholder="Customer Name" id="input-Customer-name" name="CustomerName">
+                    <input type="text" placeholder="Age" id="input-Age-name" name="Age">  
+                    <input type="text" placeholder="Gender" id="input-Gender-name" name="Gender">
+                    <input type="text" placeholder="Address" id="input-address" name="address">
+                    <label for="">Watch :</label>
+                    <select name="cinema" id=""cinema>
+                        <option value="Avengers">Avengers </option>
+                        <option value="Bird Box">Bird Box</option>
+                        <option value="Black Clover">Black Clover</option>
+                        <option value=">One Piece Red">One Piece Red</option>
+                    </select>
+                  <div>
+                    <label for="">Number of Ticket :</label>
+                    <input type="number" placeholder="Number of ticket" name="number-ticket">
+                  </div>
+                    <label for="">Add Ons :</label>
+                    <select name="addOns" id="addOns">
+                        <option value="popcorn">Pop Corn </option>
+                        <option value="drink">Coca Cola</option>
+                        <option value="burger">Burder</option>
+                    </select>
+                    <div class="button-cont">
+                        <button id="btn-submit"><i class="fa-solid fa-paper-plane fa-sm"></i> Submit</button>
+                        <button id="btn-clear-info"><i class="fa-solid fa-trash"></i> Clear</button>
+                    </div>
+                </form>
+            </div>
+           
+        </main>
+        <footer class="footer-container">
+            <i class="fa-solid fa-copyright"></i>
+            <p>
+             Copyright . Jeje One Stop Shop
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

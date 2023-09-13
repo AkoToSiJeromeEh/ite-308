@@ -1,0 +1,41 @@
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./5297078.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 255, 255); 
+    width: 30rem;
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+}
+.welcome-message h2 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+.person-details ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+
+}
+.main-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.55rem;
+    align-self: center;
+
+}
+.iframe{
+    border-radius: 0.4rem;
+    margin: auto;
+}
+li {
+    font-variant: small-caps;
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+    width: 80%;
+}
